@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset = "UTF-8" />
-      <!--  <link href = "/css/style.css" rel = "stylesheet"/> -->
-      <title>SkyCast</title>
-   </head>
-   <body>
-	   <h1>Welcome to Skycast !</h1>
+	<head>
+		<meta charset = "UTF-8" />
+		<!--  <link href = "/css/style.css" rel = "stylesheet"/> -->
+		<title>SkyCast</title>
+		
+		<link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">	 
+		<script th:src="@{/webjars/jquery/jquery.min.js}"></script>  
+		<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+		<link rel="stylesheet" th:href="@{/webjars/font-awesome/css/all.min.css}">
+   	</head>
+   	<body>
+		<h1>Welcome to Skycast !</h1>
+		<button type="button" class="btn btn-primary">Bootstrap button</button>
+		<span>font-awesome : <span class="fa fa-award"></span></span>
+		<p>
+		<span>tests : </span>
+		<i class="fas fa-compact-disc"></i>
+		<i class="fas fa-satellite"></i>
+		<span class="fas fa-compact-disc"></span>
+		<span class="fas fa-compact-disc"></span>
+		<i class="fas fa-pencil"></i>
+		<i class="fab fa-facebook"></i>
+		</p>
+		<span class="clearfix">
+			<p>clearfix</p>
+			<i class="fas fa-space-shuttle"></i>
+		</span>
    </body>
 </html>
